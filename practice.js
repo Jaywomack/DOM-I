@@ -103,21 +103,21 @@ console.log(anchorTags);
 */
 const moreAnchorTags = document.querySelectorAll('a')
 // const moreAnchorTags;
- console.log(moreAnchorTags);
+console.log(moreAnchorTags);
 
 /* 
   Request 3: Locate the ID in the HTML. Log the element that the ID is on.
 */
 customId = document.getElementById('#first-heading')
 // const customID;
- console.log(customID);
+console.log(customID);
 
 /* 
   Request 4: Log the first class that matches ".main-content"
 */
 cosntmainContent = document.querySelector('.main-content')
 // const mainContent;
- console.log(mainContent);
+console.log(mainContent);
 
 /* 
   Request 5: Log the third element with a class of ".nav-item"
@@ -192,24 +192,8 @@ These properties are used for accessing relatives of the element.
  * Document Object Model with Josh Knell
  */
 
- //When we write HTML it gets converted into objects which we call nodes that mostly are elements about 90% the other 10% are txt and other properties
+//When we write HTML it gets converted into objects which we call nodes that mostly are elements about 90% the other 10% are txt and other properties
 
- //single element DOM selectors
+//single element DOM selectors
 
- const btnId = document.getElementById()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+const btnId = document.getElementById()

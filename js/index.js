@@ -40,3 +40,25 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+//NavLink Array
+let aLinksArr = ['Services', 'Product', 'Vision', 'Features', 'About', 'Contact']
+//Foreach that inserts text into every NavLink
+let navLinkALinks = document.querySelectorAll('a');
+navLinkALinks.forEach( function(element, index) {
+  element.textContent = aLinksArr[index]; 
+})
+
+navLinkALinks.style.margin = '50px'
+
+
+
+
+
+
+
+
+
+
+
+
